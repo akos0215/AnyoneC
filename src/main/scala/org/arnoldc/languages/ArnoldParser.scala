@@ -1,0 +1,40 @@
+package org.arnoldc.languages
+
+class ArnoldParser extends AnyoneParser {
+
+
+  override val ParseError = "WHAT THE FUCK DID I DO WRONG"
+  override val DeclareInt = "HEY CHRISTMAS TREE"
+  override val SetInitialValue = "YOU SET US UP"
+  override val BeginMain = "IT'S SHOWTIME"
+  override val PlusOperator = "GET UP"
+  override val MinusOperator = "GET DOWN"
+  override val MultiplicationOperator = "YOU'RE FIRED"
+  override val DivisionOperator = "HE HAD TO SPLIT"
+  override val EndMain = "YOU HAVE BEEN TERMINATED"
+  override val Print = "TALK TO THE HAND"
+  override val Read = "I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY"
+  override val AssignVariable = "GET TO THE CHOPPER"
+  override val SetValue = "HERE IS MY INVITATION"
+  override val EndAssignVariable = "ENOUGH TALK"
+  override val False = "I LIED"
+  override val True = "NO PROBLEMO"
+  override val EqualTo = "YOU ARE NOT YOU YOU ARE ME"
+  override val GreaterThan = "LET OFF SOME STEAM BENNET"
+  override val Or = "CONSIDER THAT A DIVORCE"
+  override val And = "KNOCK KNOCK"
+  override val If = "BECAUSE I'M GOING TO SAY PLEASE"
+  override val Else = "BULLSHIT"
+  override val EndIf = "YOU HAVE NO RESPECT FOR LOGIC"
+  override val While = "STICK AROUND"
+  override val EndWhile = "CHILL"
+  override val DeclareMethod = "LISTEN TO ME VERY CAREFULLY"
+  override val MethodArguments = "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE"
+  override val Return = "I'LL BE BACK"
+  override val EndMethodDeclaration = "HASTA LA VISTA, BABY"
+  override val CallMethod = "DO IT NOW"
+  override val NonVoidMethod = "GIVE THESE PEOPLE AIR"
+  override val AssignVariableFromMethodCall = "GET YOUR ASS TO MARS"
+  override val Modulo = "I LET HIM GO"
+
+}
