@@ -212,29 +212,21 @@ class AnyoneParser extends Parser {
   }
 
   def loadLanguage(languageName: String) = {
-    println("Loading " + languageName + " language file stored locally")
-    //println("Current language file to be checked"+ getClass.getClassLoader.getResource("org/anyonec/languages/"+languageName + ".properties"))
-    try {
-      //val reservedWords = Source.fromFile(new File("/languages/" + languageName + ".properties")).reader()
-      val reservedWords = getClass.getClassLoader.getResource("org/anyonec/languages/"+languageName + ".properties")
-      println(reservedWords)
-      language.load(reservedWords.openStream())
-      println(language.getProperty("BeginMain"))
-    }
-    catch {
-      case ioe: FileNotFoundException => {
-        println("Language file not found, let's check it on github..." + ioe)
+      val reservedWords = getClass.getClassLoader.getResource("org/anyonec/languages/"+languageName + ".language")
+      if (reservedWords == null) {
+        println("Language file not found, let's check it on github...")
         checkLanguageOnGithub(languageName)
-
       }
-    }
+      else
+        language.load(reservedWords.openStream())
+
+
   }
 
   def checkLanguageOnGithub(languageName: String) = {
-    println("Checking http://www.index.hufds"+ languageName)
     try
       {
-     val html = Source.fromURL("http://hugde.adocean.pl/files/akijkgvsurm/khnnolkrke/ughsmxhgoc/f.png"+ languageName).reader()
+     val html = Source.fromURL("https://raw.githubusercontent.com/akos0215/AnyoneC/master/src/main/scala/org/anyonec/languages/"+ languageName+".language").reader()
      language.load(html)
       }
     catch{
