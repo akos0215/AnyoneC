@@ -5,7 +5,7 @@ It is a Programming language generator based on ArnoldC.
 
 I really love ArnoldC, the programming language which is based on Arnold Schwarzenegger's one-liners. 
 Nevertheless I realized that it can be generalized to utilize anyone's one-liners,
-e.g. poets, writers, actors, politics etc. 
+e.g. poets, writers, actors, politics etc. And do it without recompiling the code.
  
 
 ## HelloWorld.arnoldc
@@ -94,5 +94,7 @@ PlusOperator `GET UP`
 
 [ParseError](http://www.youtube.com/watch?v=oGcRTJK43OM) `WHAT THE FUCK DID I DO WRONG`
 
-## Extend it as you wish
+## Add other languages as you wish
 
+If you miss a celebrity as a programming language, you just need to fill in the language file and
+put it into the jar, or if you would share it, please feel free to send it to me via mail, or just have a pull request on github.
