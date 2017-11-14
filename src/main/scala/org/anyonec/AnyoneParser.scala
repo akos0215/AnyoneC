@@ -240,7 +240,6 @@ class AnyoneParser extends Parser {
 
   def parse(language: String, expression: String): RootNode = {
     loadLanguage(language)
-    println("language in parse function: " + language)
     val parsingResult = ReportingParseRunner(Root).run(expression)
     parsingResult.result match {
       case Some(root) => root
