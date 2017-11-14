@@ -1,10 +1,12 @@
-# ArnoldC
+# AnyoneC
 
-Programming language based on the one-liners of Arnold Schwarzenegger.
-
+It is a Programming language generator based on ArnoldC.
 ## Motivation
 
-Although the one-liners of Arnold Schwarzenegger are fairly well known the true semantics of the uttering is yet to be understood. This project tries to discover new meanings from the Arnold movies with the means of computer science.
+I really love ArnoldC, the programming language which is based on Arnold Schwarzenegger's one-liners. 
+Nevertheless I realized that it can be generalized to utilize anyone's one-liners,
+e.g. poets, writers, actors, politics etc. 
+ 
 
 ## HelloWorld.arnoldc
 
@@ -14,16 +16,15 @@ Although the one-liners of Arnold Schwarzenegger are fairly well known the true 
 
 ## Quick Start
 
-	wget http://lhartikk.github.io/ArnoldC.jar
+	wget https://github.com/akos0215/AnyoneC/anyoneC.jar
 	echo -e "IT'S SHOWTIME\nTALK TO THE HAND \"hello world\"\nYOU HAVE BEEN TERMINATED" > hello.arnoldc
-	java -jar ArnoldC.jar hello.arnoldc
-	java hello
-
+	java -jar AnyoneC.jar -language Arnold -run hello.arnoldc
+	
 To create some "audible" output you can try the -declaim option:
 
-	java -jar ArnoldC.jar -declaim hello.arnoldc
+	java -jar AnyoneC.jar -language Arnold -declaim hello.arnoldc
 
-## Brief overview of the keywords
+## Brief overview of the keywords of ArnoldC dialect
 
 Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more details
 
@@ -92,3 +93,6 @@ PlusOperator `GET UP`
 [EndAssignVariable](http://www.youtube.com/watch?v=rk9WHasIZk0) `ENOUGH TALK`
 
 [ParseError](http://www.youtube.com/watch?v=oGcRTJK43OM) `WHAT THE FUCK DID I DO WRONG`
+
+## Extend it as you wish
+
