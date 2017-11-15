@@ -1,11 +1,13 @@
 # AnyoneC
 
 It is a Programming language generator based on ArnoldC.
+
 ## Motivation
 
-I really love ArnoldC, the programming language which is based on Arnold Schwarzenegger's one-liners. 
-Nevertheless I realized that it can be generalized to utilize anyone's one-liners,
-e.g. poets, writers, actors, politics etc. And do it without recompiling the code.
+I really love ArnoldC, the programming language based on Arnold Schwarzenegger's one-liners. 
+Nevertheless I realized that it can be generalized to understand anyone's (e.g. poets, writers, actors, politics etc. ) 
+one-liners as dialects. And here we go.
+
  
 
 ## HelloWorld.arnoldc
@@ -19,6 +21,13 @@ e.g. poets, writers, actors, politics etc. And do it without recompiling the cod
     WELCOME TO THE PARTY, PAL!
     YIPPEE KI-YAY MOTHERFUCKER "hello world"
     NOW I KNOW HOW A TV DINNER FEELS.
+
+## HelloWorld.epc
+
+    BIZONYOS SZINT FÖLÖTT
+    AMIT LE LEHET ÍRNI, AZ MEG IS TÖRTÉNHET "hello world"
+    NEM SÜLLYEDÜNK BIZONYOS SZINT ALÁ
+
 
 ## Quick Start
 
@@ -102,5 +111,8 @@ PlusOperator `GET UP`
 
 ## Add other languages as you wish
 
-If you miss a celebrity as a programming language, you just need to fill in the language file and
-put it into the jar, or if you would share it, please feel free to send it to me via mail, or just have a pull request on github.
+Do you miss someone? NO PROBLEMO, you just need to fill in the language file and
+put it into the language subfolder within the jar!
+Or if you would share it, please feel free to send it to me via mail (akos0215@gmail.com), or just fork the source and have a pull request here on github.
+
+
