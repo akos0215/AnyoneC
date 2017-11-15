@@ -22,9 +22,9 @@ e.g. poets, writers, actors, politics etc. And do it without recompiling the cod
 
 ## Quick Start
 
-	wget https://github.com/akos0215/AnyoneC/anyoneC.jar
+	wget https://akos0215.github.io/AnyoneC.jar
 	echo -e "IT'S SHOWTIME\nTALK TO THE HAND \"hello world\"\nYOU HAVE BEEN TERMINATED" > hello.arnoldc
-	java -jar AnyoneC.jar -language Arnold -run hello.arnoldc
+	java -jar AnyoneC.jar -language ArnoldC -run hello.arnoldc
 	
 To create some "audible" output you can try the -declaim option:
 
