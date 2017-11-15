@@ -37,7 +37,7 @@ one-liners as dialects. And here we go.
 	
 To create some "audible" output you can try the -declaim option:
 
-	java -jar AnyoneC.jar -language Arnold -declaim hello.arnoldc
+	java -jar AnyoneC.jar -language ArnoldC -declaim hello.arnoldc
 
 ## Brief overview of the keywords of ArnoldC dialect
 
