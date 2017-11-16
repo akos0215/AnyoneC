@@ -5,24 +5,24 @@ It is a Programming language generator based on ArnoldC.
 ## Motivation
 
 I really love ArnoldC, the programming language based on Arnold Schwarzenegger's one-liners. 
-Nevertheless I realized that it can be generalized to understand anyone's (e.g. poets, writers, actors, politics etc. ) 
-one-liners as dialects. And here we go.
+Nevertheless I realized that it can be generalized to accept anyone's (e.g. poets, writers, actors, politics etc. ) 
+one-liners as keywords. Aaand here we go.
 
  
 
-## HelloWorld.arnoldc
+## HelloWorld in ArnoldC
 
 	IT'S SHOWTIME
 	TALK TO THE HAND "hello world"
 	YOU HAVE BEEN TERMINATED
 
-## HelloWorld.brucewillisc
+## HelloWorld in BrucewillisC
 
     WELCOME TO THE PARTY, PAL!
     YIPPEE KI-YAY MOTHERFUCKER "hello world"
     NOW I KNOW HOW A TV DINNER FEELS.
 
-## HelloWorld.epc
+## HelloWorld in EsterházyPéterC
 
     BIZONYOS SZINT FÖLÖTT
     AMIT LE LEHET ÍRNI, AZ MEG IS TÖRTÉNHET "hello world"
