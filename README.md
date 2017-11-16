@@ -1,6 +1,6 @@
 # AnyoneC
 
-It is a Programming language generator based on ArnoldC.
+A programming language generator based on ArnoldC.
 
 ## Motivation
 
